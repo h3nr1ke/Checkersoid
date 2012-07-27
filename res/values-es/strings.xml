@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Chekersoid</string>
+
+	<string name="restart">Reiniciar</string>
+	<string name="about">Sobre</string>
+	<string name="share">compartir</string>
+	<string name="share_title">a través del cual?</string>
+	<string name="share_msg">Damas más simple del mundo s https://market.android.com/details?id=com.h3nr1ke.games.checkers por @hdeodato #checkersoid</string>
+
+	<string name="red_won">Rojo ganó</string>
+	<string name="black_won">Negro ganó</string>
+
+	<string name="clean_screen">Reinicia</string>
+	<string name="time_to_play">Es hora de jugar!</string>
+
+	<string name="txt_about_title">Sobre \"@app_name@\"</string>
+	<string name="txt_desc">Gracias por usar \"@app_name@\" \n\n Desarrollado
+		por Deodato Henrique\n h3nr1ke@gmail.com\n\n 
+		Imágenes de Fabio Kai\n kaiyenhsiao@gmail.com\n\n Ayúdame a mejorar esta
+		aplicación, si usted encuentra un error o tiene una idea, enviar un
+		e-mail. ˆˆV \n Para ver todas mis aplicaciones, haga clic aquí @apps@
+	</string>
+
+</resources>

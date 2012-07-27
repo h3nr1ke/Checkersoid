@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <script src="jquery.js" type="text/javascript"></script> 
+    <script src="jqueryMobile.js" type="text/javascript"></script> 
+    <script src="dama.js" type="text/javascript"></script> 
+    <style type="text/css">
+      body{
+        padding: 0px;
+        margin: 0px;
+      }
+      table{
+        height: 100%;
+        z-index: -1;
+      }
+      
+      table tr td{
+         margin:0px; padding:0px
+      }
+      #area{
+        margin:0px;
+        height:100%;
+      }
+      
+      .white{
+        background-color:#eeeeee;
+      }
+      .black{
+        background-color:#bbbbbb;
+      }
+      
+      td.sel{
+        background-color:#1252a0;
+      }
+      
+      td.sel img.black{
+      	background-color:#1252a0;
+      }
+      
+      td{
+        text-align: center
+      }
+
+      *{
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+      }
+      
+      .ui-loader, #black-piece, #red-piece{
+      	display:none;
+      }
+    </style>
+  </head>
+  <body id="game">
+    <div id="area">
+      <table cellpadding="0" cellspacing="0">
+        <tr id="1">
+          <td title="1" class="white"></td>
+          <td title="2" class="black piece"></td>
+          <td title="3" class="white"></td>
+          <td title="4" class="black piece"></td> 
+          <td title="5" class="white"></td>
+          <td title="6" class="black piece"></td>
+          <td title="7" class="white"></td> 
+          <td title="8" class="black piece"></td>
+        </tr>
+        <tr id="2">
+          <td title="1" class="black piece"></td>
+          <td title="2" class="white"></td>
+          <td title="3" class="black piece"></td> 
+          <td title="4" class="white"></td>
+          <td title="5" class="black piece"></td>
+          <td title="6" class="white"></td> 
+          <td title="7" class="black piece"></td>
+          <td title="8" class="white"></td>
+        </tr>
+        <tr id="3">
+          <td title="1" class="white"></td>
+          <td title="2" class="black piece"></td>
+          <td title="3" class="white"></td>
+          <td title="4" class="black piece"></td> 
+          <td title="5" class="white"></td>
+          <td title="6" class="black piece"></td>
+          <td title="7" class="white"></td> 
+          <td title="8" class="black piece"></td>
+        </tr>
+        <tr id="4">
+          <td title="1" class="black"></td>
+          <td title="2" class="white"></td>
+          <td title="3" class="black"></td> 
+          <td title="4" class="white"></td>
+          <td title="5" class="black"></td>
+          <td title="6" class="white"></td> 
+          <td title="7" class="black"></td>
+          <td title="8" class="white"></td>
+        </tr>
+        <tr id="5">
+          <td title="1" class="white"></td>
+          <td title="2" class="black"></td>
+          <td title="3" class="white"></td>
+          <td title="4" class="black"></td> 
+          <td title="5" class="white"></td>
+          <td title="6" class="black"></td>
+          <td title="7" class="white"></td> 
+          <td title="8" class="black"></td>
+        </tr>
+        <tr id="6">
+          <td title="1" class="black piece"></td>
+          <td title="2" class="white"></td>
+          <td title="3" class="black piece"></td> 
+          <td title="4" class="white"></td>
+          <td title="5" class="black piece"></td>
+          <td title="6" class="white"></td> 
+          <td title="7" class="black piece"></td>
+          <td title="8" class="white"></td>
+        </tr>
+        <tr id="7">
+          <td title="1" class="white"></td>
+          <td title="2" class="black piece"></td>
+          <td title="3" class="white"></td>
+          <td title="4" class="black piece"></td> 
+          <td title="5" class="white"></td>
+          <td title="6" class="black piece"></td>
+          <td title="7" class="white"></td> 
+          <td title="8" class="black piece"></td>
+        </tr>
+        <tr id="8">
+          <td title="1" class="black piece"></td>
+          <td title="2" class="white"></td>
+          <td title="3" class="black piece"></td> 
+          <td title="4" class="white"></td>
+          <td title="5" class="black piece"></td>
+          <td title="6" class="white"></td> 
+          <td title="7" class="black piece"></td>
+          <td title="8" class="white"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="black-piece"><img class="black" src="black.png" style="height: inherit" /></div>
+    <div id="red-piece"><img class="red" src="red.png" style="height: inherit" /></div>
+  </body>
+</html>

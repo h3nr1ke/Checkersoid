@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Checkersoid</string>
+    
+    <string name="restart">Reiniciar</string>
+    <string name="about">Sobre</string>
+    <string name="share">Compartilhar</string>
+    <string name="share_title">Por onde?</string>
+    <string name="share_msg">A mais simples app de jogo de damas do mundo https://market.android.com/details?id=com.h3nr1ke.games.checkers by @hdeodato #checkersoid</string>
+    
+    <string name="red_won">Vermelho venceu</string>
+    <string name="black_won">Preto venceu</string>
+    
+    <string name="clean_screen">Reiniciado</string>
+    
+    <string name="time_to_play">É hora de jogar!</string>
+    
+    <string name="loading_tilte">Carregando</string>
+    <string name="loading_message">Carregando o jogo</string>
+    
+    <string name="txt_about_title">Sobre \"@app_name@\"</string>
+    <string name="txt_desc">Obrigado por usar \"@app_name@\" \n\n Desenvolvido
+		por Henrique Deodato\n h3nr1ke@gmail.com\n\n Imagens por Fabio Kai\n
+		kaiyenhsiao@gmail.com\n\n Ajude-mnos a melhorar esta
+		app, se você encontrou um bug ou tem alguma idéia para melhorar,
+		mande-me um email. ˆˆV \n Para ver todas as minhas apps, clique aqui
+		@apps@</string>
+</resources>
