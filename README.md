@@ -1,4 +1,8 @@
 Checkersoid
 ===========
 
-A checker game made in HTML built in an Android app
+A checkers game created in HTML built in an Android app
+
+ready for AdMob
+
+Images by Kai
